@@ -9,5 +9,3 @@ int main(){
 	cout.precision(9);
 	cout<< a/b;
 }
-
-//fixed 사용하기! 
