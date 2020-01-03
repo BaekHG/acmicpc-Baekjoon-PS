@@ -13,7 +13,6 @@ int main(){
 	for(int i=0; i<n; i++){
 		cin >> k[i];
 		if(max <= k[i]) max = k[i];
-		cout << k[i] << " ";
 	}
 	
 
