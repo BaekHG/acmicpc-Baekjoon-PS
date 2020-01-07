@@ -1,5 +1,5 @@
 #include <iostream>
-#include <string>
+
 using namespace std;
 
 int main(){
@@ -22,3 +22,18 @@ int main(){
 
 	return 0;
 }
+
+// 코드가 간결하고 메모리를 덜 차지하지만 시간이 더 걸림. 
+//#include <iostream>
+//using namespace std;
+//int main(){
+//   string str;
+//   int cnt = 0;
+//   
+//   while(cin >> str){
+//      ++cnt;
+//   }
+//   cout << cnt;
+//   
+//   return 0;
+//}

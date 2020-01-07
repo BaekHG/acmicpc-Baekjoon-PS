@@ -11,9 +11,9 @@ int dialNum(char alp){
 	else if(alp == 'G' || alp =='H' || alp =='I') return 5;
 	else if(alp == 'J' || alp =='K' || alp =='L') return 6;
 	else if(alp == 'M' || alp =='N' || alp =='O') return 7;
-	else if(alp == 'P' || alp =='Q' || alp =='R' || alp =='S')  return 9;
+	else if(alp == 'P' || alp =='Q' || alp =='R' || alp =='S')  return 8;
 	else if(alp == 'T' || alp =='U' || alp =='V') return 9;
-	else if(alp == 'W' || alp =='X' || alp =='Y' || alp =='Z') return 10;
+	else return 10;
 
 }
 int main(){
@@ -23,14 +23,13 @@ int main(){
 	
 
 	for(int i=0; i<alp.length(); i++){
-//		cout << alp[i] <<' ';
 		sum += dialNum(alp[i]);
-		
-//		cout << dialNum(alp[i]) << ' ';
-//		cout << sum << ' ';
-		
 	}
 	
 	cout << sum;
 	return 0;
 }
+
+
+
+

@@ -12,8 +12,7 @@ int main(){
 		group = true;
 		cin >> str;
 		for(int j=0; j<str.length(); j++){
-			for(int k=j+2; k<str.length(); k++){
-				cout << str[j] << ' ' << str[k] << '\n';
+			for(int k=j+2; k<str.length(); k++){-
 				if(str[j] == str[k-1] && str[j] == str[k]) continue;
 				if(str[j] == str[k] ) {
 					group=false;
