@@ -16,7 +16,6 @@ int main(){
 	cin.tie(NULL);
 	ios::sync_with_stdio(false);
 	
-	
 	int n;
 	int cnt=0;
 	int num;
@@ -29,13 +28,11 @@ int main(){
 		
 		for(int j=n/2; j>0; j--){
 			if(isSosu(j)) {
-				result = n-j;
-				if(isSosu(result)) {
-					cout << j << ' '<< result  <<'\n';
+				if(isSosu(n-j)) {
+					cout << j << ' '<< n-j  <<'\n';
 					break;
 				}
-				else continue; 
-			}else continue;
+			}
 		}
 	}
 	return 0;
