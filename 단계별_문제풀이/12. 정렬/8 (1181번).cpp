@@ -11,10 +11,8 @@ int main(){
 	int n;
 	cin >> n;
 	string word[n];
-	int len[n];
 	for(int i=0; i<n; i++){
 		cin >> word[i];
-		len[i] = word[i].length();
 	}
 	
 	sort(word,word+n,cmp);
@@ -24,6 +22,5 @@ int main(){
 		if(word[i] == word[i-1]) continue;
 		cout<< word[i] <<'\n';
 	}
-//
 	return 0; 
 }
